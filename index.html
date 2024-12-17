@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <style>
+        body {
+            font-family: 'Arial, sans-serif';
+            /* Update this path to the image in your folder */
+            background: url('1.jpg') no-repeat center center fixed;
+            background-size: cover;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh;
+            margin: 0;
+            color: #333;
+        }
+
+        .birthday-card {
+            background-color: rgba(255, 255, 255, 0.4); /* Slightly transparent white */
+            padding: 30px;
+            border-radius: 15px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            text-align: center;
+            max-width: 400px;
+            margin-left: 40%;
+        }
+
+        .birthday-card h1 {
+            color: #ff6363;
+            font-size: 2rem;
+        }
+
+        .birthday-card p {
+            font-size: 1rem;
+            line-height: 1.5;
+            margin: 10px 0;
+        }
+
+        .birthday-card button {
+            background-color: #ff6363;
+            color: white;
+            border: none;
+            padding: 10px 20px;
+            border-radius: 25px;
+            cursor: pointer;
+            font-size: 1rem;
+            margin-top: 20px;
+        }
+
+        .birthday-card button:hover {
+            background-color: #ff4242;
+        }
+        .btn {
+            display: inline-block;
+            padding: 15px 30px;
+            background-color: #ff6363;
+            color: white;
+            font-size: 1.2rem;
+            font-weight: bold;
+            text-align: center;
+            text-decoration: none;
+            border-radius: 25px;
+            transition: background-color 0.3s ease, transform 0.2s ease;
+            box-shadow: 0 6px 12px rgba(0, 0, 0, 0.2);
+        }
+
+        /* Button hover effect */
+        .btn:hover {
+            background-color: #ff4242;
+            transform: translateY(-4px); /* Creates a lifting effect */
+        }
+
+        /* Button active effect */
+        .btn:active {
+            transform: translateY(2px); /* Creates a slight press effect */
+        }
+    </style>
+</head>
+<body>
+    <div class="birthday-card">
+        <h1>🎉 Happy Birthday, RASMITA! 🎂</h1>
+        <p>Wishing you a day filled with love, laughter, and joy!</p>
+        <p>May all your dreams come true. Have a fantastic year ahead!</p>
+        <button onclick="alert('Have an amazing birthday, Rain! 🎉')">Click for a Surprise</button>
+    </div><br>
+    <a href="rain.html" class="btn">View Something More </a>
+</body>
+</html>
